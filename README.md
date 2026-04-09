@@ -38,12 +38,17 @@ classical and quantum adversaries.
 
 ```
 pqc-benchmark/
-├── 01_crystals_kyber.py       # KEM benchmark — CRYSTALS-Kyber512
-├── 02_crystals_dilithium.py   # Signature benchmark — CRYSTALS-Dilithium2
-├── 03_classic_mceliece.py     # KEM benchmark — McEliece-6960119
-├── 04_sphincs_plus.py         # Signature benchmark — SPHINCS+-SHAKE-256s
-├── requirements.txt           # Python dependencies
-└── README.md
+├── README.md
+├── requirements.txt
+├── benchmarks/
+│   ├── 01_crystals_kyber.py
+│   ├── 02_crystals_dilithium.py
+│   ├── 03_classic_mceliece.py
+│   └── 04_sphincs_plus.py
+├── analysis/
+│   └── comparison.ipynb   ← gráficos + tabela comparativa
+└── paper/
+    └── relatorio_IME.pdf
 ```
 
 ---
